@@ -16,6 +16,17 @@
             "context": 1000000,
             "output": 384000,
           },
+          "variants": {
+            "low": {
+              "reasoningEffort": "low",
+            },
+            "high": {
+              "reasoningEffort": "high",
+            },
+            "max": {
+              "reasoningEffort": "max",
+            },
+          },
         },
       },
     },
