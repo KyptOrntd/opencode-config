@@ -1,0 +1,37 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "new-api": {
+      "name": "New API",
+      "npm": "@ai-sdk/openai-compatible",
+      "options": {
+        "baseURL": "http://aliyun.tail54f71d.ts.net:3000/v1",
+        "apiKey": "sk-6cmljkFbIk7YYlERgZtMCs43bvSpgkieL3i246rN5V83yRkp",
+        "setCacheKey": true,
+      },
+      "models": {
+        "DeepSeek-V4-Flash": {
+          "name": "DeepSeek-V4-Flash",
+          "limit": {
+            "context": 1000000,
+            "output": 384000,
+          },
+        },
+      },
+    },
+  },
+  "mcp": {
+    "email": {
+      "enabled": false,
+      "type": "local",
+      "command": ["uvx", "mcp-email-server@latest", "stdio"],
+      "environment": {
+        "MCP_EMAIL_SERVER_EMAIL_ADDRESS": "xiaoyaobishizhe@163.com",
+        "MCP_EMAIL_SERVER_FULL_NAME": "CPDF Agent",
+        "MCP_EMAIL_SERVER_PASSWORD": "HQjQ2DyzxCthvkny",
+        "MCP_EMAIL_SERVER_IMAP_HOST": "imap.163.com",
+        "MCP_EMAIL_SERVER_SMTP_HOST": "smtp.163.com",
+      },
+    },
+  },
+}
