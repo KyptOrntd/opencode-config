@@ -45,4 +45,5 @@
       },
     },
   },
+  "plugin": ["@mohak34/opencode-notifier"],
 }
