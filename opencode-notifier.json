@@ -85,11 +85,11 @@
     }
   },
   "messages": {
-    "permission": "Session needs permission: {sessionTitle}",
-    "complete": "{sessionTitle}\n🟢 执行成功",
+    "permission": "{sessionTitle}\n⚠️ 权限请求",
+    "complete": "{sessionTitle}\n✅ 执行成功",
     "subagent_complete": "Subagent task completed: {sessionTitle}",
     "error": "Session encountered an error: {sessionTitle}",
-    "question": "{sessionTitle}\n🟡 询问等待",
+    "question": "{sessionTitle}\n❓ 询问等待",
     "user_cancelled": "Session was cancelled by user: {sessionTitle}",
     "plan_exit": "Plan ready for review: {sessionTitle}",
     "session_started": "Session started: {sessionTitle}",
