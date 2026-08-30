@@ -88,7 +88,7 @@
     "permission": "{sessionTitle}\n⚠️ 权限请求",
     "complete": "{sessionTitle}\n✅ 执行成功",
     "subagent_complete": "Subagent task completed: {sessionTitle}",
-    "error": "Session encountered an error: {sessionTitle}",
+    "error": "{sessionTitle}\n❌ 执行失败",
     "question": "{sessionTitle}\n❓ 询问等待",
     "user_cancelled": "Session was cancelled by user: {sessionTitle}",
     "plan_exit": "Plan ready for review: {sessionTitle}",
